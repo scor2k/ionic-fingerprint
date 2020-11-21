@@ -1,0 +1,21 @@
+<ion-header *ngIf="!isModal">
+  <ion-toolbar color="primary">
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-row style="margin-top: 50%;">
+    <ion-col size="12">
+      <ion-button expand="full" color="success" (click)="login()">Login</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-row style="position: absolute; bottom: 2rem; width: 100%;" *ngIf="! isModal" >
+    <ion-col size="12">
+      <ion-button expand="full" color="warning" (click)="set_fingerprint()">Enable Fingerprint</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>
+

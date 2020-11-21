@@ -1,0 +1,4 @@
+#!/bin/bash
+
+SENTRY_SKIP_AUTO_RELEASE=true  ionic cordova run android -l --ssl --consolelogs
+

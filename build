@@ -1,0 +1,3 @@
+#!/bin/bash 
+
+SENTRY_SKIP_AUTO_RELEASE=true ionic cordova build android --release --env=prod --source-map
